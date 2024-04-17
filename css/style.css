@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+body {
+    background-color: #1f1f1f;
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    padding-top: 50px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Roboto Mono', monospace;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:active {
+    background-color: #3e8e41;
+}
+
+button:focus {
+    outline: none;
+}
+
+.alert {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.alert p {
+    margin: 0;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+body {
+    background-color: #1f1f1f;
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#social a {
+    color: #4CAF50;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+#social a:hover {
+    color: #45a049;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:focus {
+    outline: none;
+}

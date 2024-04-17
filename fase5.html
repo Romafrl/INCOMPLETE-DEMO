@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>LV5/INCOMPLETE</title>
+</head>
+    <body>
+        <img src="css/5.jpeg" alt="Descrição da imagem">
+        <h3>Amar é?</h3>
+         <input type="text" id="Resposta">
+            <button onclick="checkGuess()">Enviar</button>
+
+        <script>
+                function checkGuess() {
+                  var guess = document.getElementById('Resposta').value.toLowerCase();
+                  if (guess === 'deixar ir') {
+                    window.location.href = 'fim.html';
+                  } else {
+                    alert('Tente novamente!');
+                  }
+                }
+        </script>
+    </body>
+</html> 

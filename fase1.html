@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>LV1/INCOMPLETE</title>
+</head>
+    <body>
+        <img src="css/1.jpeg" alt="Descrição da imagem">
+        <h3>Nasci em Belém, e morri em Jerusalém </h3>
+         <input type="text" id="Resposta">
+            <button onclick="checkGuess()">Enviar</button>
+
+        <script>
+                function checkGuess() {
+                  var guess = document.getElementById('Resposta').value.toLowerCase();
+                  if (guess === 'jesus' ) {
+                    window.location.href = 'fase2.html';
+                  } else {
+                    alert('Tente novamente!');
+                  }
+                }
+        </script>
+    </body>
+</html>

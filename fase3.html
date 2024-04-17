@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Me chamam de louco...</title>
+</head>
+    <body>
+        <img src="css/3.jpeg" alt="Descrição da imagem">
+        <h3>Procure a dica !</h3>
+         <input type="text" id="Resposta">
+            <button onclick="checkGuess()">Enviar</button>
+
+        <script>
+                function checkGuess() {
+                  var guess = document.getElementById('Resposta').value.toLowerCase();
+                  if (guess === 'milennium') {
+                    window.location.href = 'fase4.html';
+                  } else {
+                    alert('Tente novamente!');
+                  }
+                }
+        </script>
+    </body>
+</html>
